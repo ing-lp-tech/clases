@@ -1,0 +1,19 @@
+h1 {
+  color: blue;
+}
+
+#especial {
+  color: brown;
+}
+/* no usar id */
+
+.clase {
+  color: green;
+}
+
+.primer-div {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  border-radius: 5px;
+}
