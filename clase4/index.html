@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="nombre">Ingrese su nombre:</label>
+        <input
+          type="text"
+          placeholder="cosme fulanito"
+          id="nombre"
+          minlength="2"
+          maxlength="12"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Ingrese su email:</label>
+        <input type="email" placeholder="cosmefulanito@gmail.com" id="email" />
+      </div>
+      <div>
+        <label for="contrasena">Ingrese su contraseña:</label>
+        <input
+          type="password"
+          placeholder="admin123"
+          id="contrasena"
+          required
+        />
+      </div>
+      <div>
+        <label for="edad">Ingrese su edad:</label>
+        <input
+          type="number"
+          placeholder="12"
+          id="edad"
+          min="300"
+          max="400"
+          required
+        />
+      </div>
+      <div>
+        <label for="color">Ingrese el color de su casa:</label>
+        <input type="color" placeholder="12" id="color" required />
+      </div>
+      <div>
+        <label for="tel">Ingrese el telefono:</label>
+        <input type="tel" placeholder="12" id="" required />
+      </div>
+      <div>
+        <label for="pais">Ingrese su pais</label>
+        <select>
+          <option value="arg">argentina</option>
+          <option value="par">paraguay</option>
+          <option value="per">peru</option>
+        </select>
+      </div>
+      <div>
+        <label for="pais">Ingrese mje</label>
+        <textarea id="mensaje" row="10" col="15"></textarea>
+      </div>
+      <div>
+        <label for="termin">estoy de acuerdo con las condiciones</label>
+        <input type="checkbox" placeholder="12" id="termin" required />
+      </div>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
