@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.padre {
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.hijo {
+  height: 300px;
+  width: 200px;
+}
+
+.hijo:nth-child(1) {
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+  left: 200px;
+  z-index: 2;
+}
+
+.hijo:nth-child(2) {
+  background-color: blue;
+  position: relative;
+  z-index: 1;
+}
+.hijo:nth-child(3) {
+  background-color: blueviolet;
+  z-index: 3;
+  position: relative;
+  right: 200px;
+}
+
+.searchContainer {
+  margin-top: 1000px;
+  margin-bottom: 100px;
+  background-color: aqua;
+  width: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchContainer input {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.searchContainer .icon-container {
+  position: absolute;
+  right: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.257);
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.utn-ad {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+header {
+  height: 70px;
+  background-color: blueviolet;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.banner {
+  height: 100px;
+  background-color: brown;
+}

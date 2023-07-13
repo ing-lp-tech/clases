@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./assets/logo.png);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 40px;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 90px 0 0 0;
+}
+
+body h1 {
+  text-align: center;
+}
+
+.header-fixed {
+  background-color: beige;
+  border: 3px solid rgb(255, 10, 10);
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.iconoMarket {
+  width: 200px;
+  height: 50px;
+  margin: 30px auto 30px auto;
+  padding: 10px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.searchContainer {
+  width: 400px;
+  height: 50px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.iconoMarket img {
+  height: 100%;
+}
+
+.circleRed {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+  position: absolute;
+  top: 5px;
+  left: 112px;
+  color: white;
+  justify-content: center;
+}
+
+.searchContainer input {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.searchContainer .icon-container {
+  position: absolute;
+  right: 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.733);
+  padding-left: 15px;
+  padding-right: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wsspContainer {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(43, 255, 0);
+  position: sticky;
+  bottom: 35px;
+  right: 60px;
+  border-radius: 40px;
+  margin: 0 40px 0 auto;
+}
+
+.iconContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wsspContainer img {
+  width: 30px;
+  height: 30px;
+}
+
+.img-div {
+  width: max-content;
+  margin: 30px auto;
+}
