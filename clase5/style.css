@@ -1,0 +1,38 @@
+.padre-1 {
+  border: yellow;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.padre-2 {
+  border: yellow;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+.padre-3 {
+  border: yellow;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+.padre-4 {
+  border: yellow;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+.hijo {
+  margin: 20px;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border: 20px black;
+}
